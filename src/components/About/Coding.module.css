@@ -1,0 +1,35 @@
+.section {
+    display: flex;
+    justify-content: center;
+    padding-top: 7em;
+    /* padding-left: 10em; */
+
+    margin: 0 auto;
+
+    transition: opacity 1s, transform 1s;
+}
+
+.main {
+    width: 30%;
+}
+
+.title {
+    margin-bottom: .5em;
+}
+
+
+.pic {
+    height: 320px;
+    width: 512px;
+    border-radius: 10px;
+    margin-left: 1em;
+}
+
+.hidden {
+    opacity: 0;
+    transform: translateY(-10%);
+}
+
+.visible {
+    opacity: 1;
+}

@@ -1,0 +1,29 @@
+.section {
+    padding-top: 100px;
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    transition: transform 1s, opacity 1s;
+}
+
+.pic {
+    height: 40em;
+    border-radius: 10px;
+}
+.title {
+    margin: auto;
+}
+
+.paragraph {
+    margin-top: 15px;
+    font-size: larger;
+    /* width: 70%; */
+    /* margin: auto; */
+}
+
+.main {
+    align-self: flex-start;
+    padding-top: 11em;
+    width: 50%;
+    /* margin-left: auto; */
+}

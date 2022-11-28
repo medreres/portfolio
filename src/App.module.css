@@ -1,0 +1,13 @@
+.foo {
+    --time: 1s;
+    transition: transform var(--time), transform var(--time);
+}
+
+.visible {
+
+}
+
+.invisible {
+    opacity: 0;
+    transform: translateX(-10vw);
+}
