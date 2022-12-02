@@ -53,6 +53,10 @@ const Skills = () => {
             <td>Experience with metaframework, server side props, routing,</td>
           </tr>
           <tr>
+            <th>Node.js</th>
+            <td>Creating API, basic routing</td>
+          </tr>
+          <tr>
             <th>Python</th>
             <td>Solid understanding, OOP, I/O processing</td>
           </tr>
@@ -66,7 +70,7 @@ const Skills = () => {
           </tr>
           <tr>
             <th>SQL, MongoDB</th>
-            <td>Experience working from courses</td>
+            <td>Experience working from courses, also worked with mongoose, prisma</td>
           </tr>
           <tr>
             <th>Git</th>
@@ -113,10 +117,6 @@ const Skills = () => {
           <tr>
             <th>Inquiring</th>
             <td>Innate inclination learning anything new</td>
-          </tr>
-          <tr>
-            <th>Stress-resistent</th>
-            <td>Able to work under stress</td>
           </tr>
           <tr>
             <th>Stress-resistent</th>

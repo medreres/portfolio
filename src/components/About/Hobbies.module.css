@@ -52,11 +52,6 @@
         transform: translateY(30%);
     }
 
-    30% {
-        opacity: 0;
-        transform: translateY(30%);
-    }
-
     to {
         opacity: 1;
         transform: translateY(0);

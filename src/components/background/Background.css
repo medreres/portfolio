@@ -5,11 +5,10 @@
 .container {
     position: absolute;
     width: 100vw;
-    height: var(--height);
+    height: 100vh;
     overflow: hidden;
     display: flex;
     justify-content: space-between;
-    height: var(--height);
 
     z-index: -1;
 }
@@ -22,15 +21,15 @@
 
 .container span {
     position: relative;
-    width: 20px;
-    height: 20px;
+    width: 1vw;
+    height: 1vw;
     background-color: #4fc3dc;
     margin: 0 4px;
     border-radius: 50%;
     /* top: var(--top); */
-    box-shadow: 0 0 0 10px #4fc3dc44,
-        0 0 50px #4fc3dc,
-        0 0 10px #4fc3dc;
+    box-shadow: 0 0 0 1vw #4fc3dc44,
+        0 0 5vw #4fc3dc,
+        0 0 1vw #4fc3dc;
     animation: animate linear infinite;
     animation-duration: calc(100s / var(--i));
 }

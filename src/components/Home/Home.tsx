@@ -9,6 +9,8 @@ const About = () => {
 
   return (
     <section className={classes} ref={ref}>
+
+      <h1>Attention! Site is under construction</h1>
       <main className={styles.main}>
         <h1 className={styles.title}>Hi, I am Max.</h1>
         <p className={styles.paragraph}>
@@ -26,6 +28,7 @@ const About = () => {
       <aside>
         <img src={pic} className={styles.pic} alt="author" />
       </aside>
+      
     </section>
   );
 };
