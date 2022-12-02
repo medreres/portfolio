@@ -63,6 +63,16 @@ const NavBar = () => {
             className={(navData) =>
               `${styles["li-link"]} ${navData.isActive ? styles['li-link-active'] : ""}`
             }
+            to="/skills"
+          >
+            Skills
+          </NavLink>
+        </li>
+        <li className={styles["li-item"]}>
+          <NavLink
+            className={(navData) =>
+              `${styles["li-link"]} ${navData.isActive ? styles['li-link-active'] : ""}`
+            }
             to="/contact"
           >
             Contact

@@ -9,6 +9,7 @@
     overflow: hidden;
     display: flex;
     justify-content: space-between;
+    height: var(--height);
 
     z-index: -1;
 }

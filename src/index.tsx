@@ -1,9 +1,7 @@
 import ReactDOM from "react-dom/client";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
-import Background from "./components/Background/Background";
 import "./index.css";
-import Navbar from "./components/Navbar/Navbar";
 import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(
@@ -12,8 +10,6 @@ const root = ReactDOM.createRoot(
 
 root.render(
   <BrowserRouter>
-    <Background height={100} />
-    <Navbar />
     <App />
   </BrowserRouter>
 );

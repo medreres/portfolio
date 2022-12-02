@@ -1,0 +1,14 @@
+.article {
+    padding-top: 15em;
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+
+    /* display: flex; */
+    /* justify-content: center; */
+    /* gap: 15px; */
+}
+
+.table {
+    margin: 0 auto;
+}

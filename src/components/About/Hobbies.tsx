@@ -13,9 +13,10 @@ const Hobbies = () => {
       <main className={styles.main}>
         <h2 className={styles.title}>Hobbies</h2>
         <p>
-          Despite being enthusiatic about programming, I also get from playing
+          Despite being enthusiatic about programming, I also get pleasure from playing
           Volleyball. Back in school I used to go with my team for various
-          competitions and oftentimes we took either first or second places!
+          competitions and oftentimes we took either first or second places! Having finsihed 8 years of Music classes, 
+          I definitely can say that I adore music and anything that somehow connected with it!
         </p>
       </main>
       <aside>
